@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  background: linear-gradient(#ff66b2, #6600cc); /* Updated background color */
+
+  /* Fun animation for the body */
+  animation: colorChange 8s infinite alternate;
+}
+
+/* Add a fun hover effect for code elements */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  transition: transform 0.3s ease-in-out;
+}
+
+code:hover {
+  transform: scale(1.1);
+}
+
+/* Add a fun color-changing animation */
+@keyframes colorChange {
+  from {
+    background: linear-gradient(#ff66b2, #6600cc);
+  }
+  to {
+    background: linear-gradient(#2A00B7, #42006c);
+  }
+}
