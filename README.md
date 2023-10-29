@@ -2,6 +2,8 @@
 
 
 Introduction
+
+
 This repository contains my solution to the "Responsive Login Screen Design" assignment provided by Aimed Labs. I used ReactJS for building the components and Styled-Components for styling. The goal was to create a visually appealing and responsive login screen that works well on various devices.
 
 Technologies Used
